@@ -63,7 +63,7 @@
         </configuration>
         <executions>
           <execution>
-            <id>make-assembly</id> <!-- this is used for inheritance merges -->
+            <id>make-assembly</id>
             <phase>package</phase> <!-- 指定在打包节点执行jar包合并操作 -->
             <goals>
               <goal>single</goal>
